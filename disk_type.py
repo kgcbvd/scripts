@@ -16,7 +16,7 @@ for disk in disks:
             if not exit_code:
                 dev_name_type["{#DEVNAME}"] = disk
                 dev_name_type["{#DEVTYPE}"] = dev_type
-        data["data"].append(dev_name_type)
+                data["data"].append(dev_name_type)
 
 print(json.dumps(data))
 
